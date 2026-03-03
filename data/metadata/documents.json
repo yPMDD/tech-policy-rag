@@ -1,0 +1,568 @@
+{
+  "generated_at": "2026-03-03T00:39:43.378346",
+  "schema_version": 1,
+  "documents": [
+    {
+      "doc_id": "gdpr_info_root",
+      "title": "GDPR legal text (gdpr-info.eu)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "gdpr-info.eu",
+      "language": "en",
+      "source_url": "https://gdpr-info.eu/",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.376875",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/gdpr_info_root.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "gdpr_art_3",
+      "title": "GDPR Article 3 \u00e2\u20ac\u201c Territorial scope",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "gdpr-info.eu",
+      "language": "en",
+      "source_url": "https://gdpr-info.eu/art-3-gdpr/",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.376980",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/gdpr_art_3.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "gdpr_art_13",
+      "title": "GDPR Article 13 \u00e2\u20ac\u201c Right to be informed",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "gdpr-info.eu",
+      "language": "en",
+      "source_url": "https://gdpr-info.eu/art-13-gdpr/",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377083",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/gdpr_art_13.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "gdpr_art_15",
+      "title": "GDPR Article 15 \u00e2\u20ac\u201c Right of access",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "gdpr-info.eu",
+      "language": "en",
+      "source_url": "https://gdpr-info.eu/art-15-gdpr/",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377289",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/gdpr_art_15.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "eu_ai_act_texts",
+      "title": "EU AI Act \u00e2\u20ac\u201c Act texts hub",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "ai_policy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "artificialintelligenceact.eu",
+      "language": "en",
+      "source_url": "https://artificialintelligenceact.eu/the-act/",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377379",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/eu_ai_act_texts.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_3_2018_territorial_scope",
+      "title": "EDPB Guidelines 3/2018 \u00e2\u20ac\u201c Territorial scope (Art. 3)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377451",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_3_2018_territorial_scope.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_07_2020_controller_processor",
+      "title": "EDPB Guidelines 07/2020 \u00e2\u20ac\u201c Controller and processor",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/system/files_en?file=2023-10%2FEDPB_guidelines_202007_controllerprocessor_final_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377514",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_guidelines_202007_controllerprocessor_final_en.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_05_2020_consent",
+      "title": "EDPB Guidelines 05/2020 \u00e2\u20ac\u201c Consent",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202005_consent_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377568",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_guidelines_202005_consent_en.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_01_2021_breach_examples",
+      "title": "EDPB Guidelines 01/2021 \u00e2\u20ac\u201c Breach notification examples",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy",
+        "incident_response"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/system/files/2022-01/edpb_guidelines_012021_pdbnotification_adopted_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377667",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_01_2021_breach_examples.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_08_2020_social_media_targeting",
+      "title": "EDPB Guidelines 8/2020 \u00e2\u20ac\u201c Targeting of social media users",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy",
+        "adtech"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/system/files/2021-04/edpb_guidelines_082020_on_the_targeting_of_social_media_users_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377728",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_08_2020_social_media_targeting.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_4_2019_privacy_by_design",
+      "title": "EDPB Guidelines 4/2019 \u00e2\u20ac\u201c Data protection by design and by default (Art. 25)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy",
+        "engineering"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377789",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_4_2019_privacy_by_design.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "edpb_04_2022_fines",
+      "title": "EDPB Guidelines 04/2022 \u00e2\u20ac\u201c Calculation of administrative fines",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy",
+        "enforcement"
+      ],
+      "doc_type": "guidelines",
+      "authority": "EDPB",
+      "publisher": "edpb.europa.eu",
+      "language": "en",
+      "source_url": "https://www.edpb.europa.eu/system/files/2023-06/edpb_guidelines_042022_calculationofadministrativefines_en.pdf",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377845",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/edpb/edpb_04_2022_fines.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "ico_right_to_be_informed",
+      "title": "ICO \u00e2\u20ac\u201c Right to be informed (UK GDPR guidance)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "regulator_guidance",
+      "authority": "ICO",
+      "publisher": "ico.org.uk",
+      "language": "en",
+      "source_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-be-informed/",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377899",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/ico/ico_right_to_be_informed.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "ie_dpc_right_to_be_informed",
+      "title": "Ireland DPC \u00e2\u20ac\u201c Right to be informed (Article 13 & 14)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "regulator_guidance",
+      "authority": "Irish DPC",
+      "publisher": "dataprotection.ie",
+      "language": "en",
+      "source_url": "https://www.dataprotection.ie/en/individuals/know-your-rights/right-be-informed-transparency-article-13-14-gdpr",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.377951",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/irish_dpc/ie_dpc_right_to_be_informed.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "ie_dpc_right_of_access",
+      "title": "Ireland DPC \u00e2\u20ac\u201c Right of access",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "regulator_guidance",
+      "authority": "Irish DPC",
+      "publisher": "dataprotection.ie",
+      "language": "en",
+      "source_url": "https://dataprotection.ie/en/individuals/know-your-rights/right-access-information",
+      "format": "html",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.378011",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/irish_dpc/ie_dpc_right_of_access.html",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "gdpr_legal_text",
+      "title": "GDPR \u00e2\u20ac\u201c General Data Protection Regulation (Official Text)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "privacy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "eur-lex.europa.eu",
+      "language": "en",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.378067",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/CELEX_32016R0679_EN_TXT.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "nis2_directive",
+      "title": "NIS2 Directive \u00e2\u20ac\u201c Cybersecurity measures",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "cybersecurity"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "eur-lex.europa.eu",
+      "language": "en",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2555",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.378120",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/NIS2_Regulation.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    },
+    {
+      "doc_id": "eu_ai_act_legal_text",
+      "title": "EU AI Act \u00e2\u20ac\u201c Artificial Intelligence Act (Official Text)",
+      "jurisdiction": [
+        "EU"
+      ],
+      "domain": [
+        "ai_policy"
+      ],
+      "doc_type": "law",
+      "authority": "European Union",
+      "publisher": "eur-lex.europa.eu",
+      "language": "en",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+      "format": "pdf",
+      "version": {
+        "label": "1.0",
+        "retrieved_at": "2026-03-03T00:39:43.378179",
+        "content_hash": null
+      },
+      "ingestion": {
+        "extractor": null,
+        "ocr_used": false,
+        "warnings": []
+      },
+      "paths": {
+        "raw": "data/raw/european_union/OJ_L_202401689_EN_TXT.pdf",
+        "extracted": null,
+        "cleaned": null
+      }
+    }
+  ]
+}

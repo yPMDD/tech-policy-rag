@@ -1,0 +1,264 @@
+version: 1
+defaults:
+  jurisdiction: EU
+  store_raw: true
+  store_extracted: true
+  store_cleaned: true
+sources:
+- id: gdpr_info_root
+  name: GDPR legal text (gdpr-info.eu)
+  url: https://gdpr-info.eu/
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - privacy
+  publisher: gdpr-info.eu
+  authority: European Union
+  enabled: true
+- id: gdpr_art_3
+  name: GDPR Article 3 – Territorial scope
+  url: https://gdpr-info.eu/art-3-gdpr/
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - privacy
+  publisher: gdpr-info.eu
+  authority: European Union
+  enabled: true
+- id: gdpr_art_13
+  name: GDPR Article 13 – Right to be informed
+  url: https://gdpr-info.eu/art-13-gdpr/
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - privacy
+  publisher: gdpr-info.eu
+  authority: European Union
+  enabled: true
+- id: gdpr_art_15
+  name: GDPR Article 15 – Right of access
+  url: https://gdpr-info.eu/art-15-gdpr/
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - privacy
+  publisher: gdpr-info.eu
+  authority: European Union
+  enabled: true
+- id: eu_ai_act_texts
+  name: EU AI Act – Act texts hub
+  url: https://artificialintelligenceact.eu/the-act/
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - ai_policy
+  publisher: artificialintelligenceact.eu
+  authority: European Union
+  enabled: true
+- id: edpb_3_2018_territorial_scope
+  name: EDPB Guidelines 3/2018 – Territorial scope (Art. 3)
+  url: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: edpb_07_2020_controller_processor
+  name: EDPB Guidelines 07/2020 – Controller and processor
+  url: https://www.edpb.europa.eu/system/files_en?file=2023-10%2FEDPB_guidelines_202007_controllerprocessor_final_en.pdf
+  filename: edpb_guidelines_202007_controllerprocessor_final_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: edpb_05_2020_consent
+  name: EDPB Guidelines 05/2020 – Consent
+  url: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202005_consent_en.pdf
+  filename: edpb_guidelines_202005_consent_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: edpb_01_2021_breach_examples
+  name: EDPB Guidelines 01/2021 – Breach notification examples
+  url: https://www.edpb.europa.eu/system/files/2022-01/edpb_guidelines_012021_pdbnotification_adopted_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  - incident_response
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: edpb_08_2020_social_media_targeting
+  name: EDPB Guidelines 8/2020 – Targeting of social media users
+  url: https://www.edpb.europa.eu/system/files/2021-04/edpb_guidelines_082020_on_the_targeting_of_social_media_users_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  - adtech
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: edpb_4_2019_privacy_by_design
+  name: EDPB Guidelines 4/2019 – Data protection by design and by default (Art. 25)
+  url: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  - engineering
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: edpb_04_2022_fines
+  name: EDPB Guidelines 04/2022 – Calculation of administrative fines
+  url: https://www.edpb.europa.eu/system/files/2023-06/edpb_guidelines_042022_calculationofadministrativefines_en.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: guidelines
+  language: en
+  domain:
+  - privacy
+  - enforcement
+  publisher: edpb.europa.eu
+  authority: EDPB
+  enabled: true
+- id: ico_right_to_be_informed
+  name: ICO – Right to be informed (UK GDPR guidance)
+  url: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-be-informed/
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: regulator_guidance
+  language: en
+  domain:
+  - privacy
+  publisher: ico.org.uk
+  authority: ICO
+  enabled: true
+- id: ie_dpc_right_to_be_informed
+  name: Ireland DPC – Right to be informed (Article 13 & 14)
+  url: https://www.dataprotection.ie/en/individuals/know-your-rights/right-be-informed-transparency-article-13-14-gdpr
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: regulator_guidance
+  language: en
+  domain:
+  - privacy
+  publisher: dataprotection.ie
+  authority: Irish DPC
+  enabled: true
+- id: ie_dpc_right_of_access
+  name: Ireland DPC – Right of access
+  url: https://dataprotection.ie/en/individuals/know-your-rights/right-access-information
+  format: html
+  jurisdiction:
+  - EU
+  doc_type: regulator_guidance
+  language: en
+  domain:
+  - privacy
+  publisher: dataprotection.ie
+  authority: Irish DPC
+  enabled: true
+- id: gdpr_legal_text
+  name: GDPR – General Data Protection Regulation (Official Text)
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679
+  filename: CELEX_32016R0679_EN_TXT.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - privacy
+  publisher: eur-lex.europa.eu
+  authority: European Union
+  enabled: true
+- id: nis2_directive
+  name: NIS2 Directive – Cybersecurity measures
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2555
+  filename: NIS2_Regulation.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - cybersecurity
+  publisher: eur-lex.europa.eu
+  authority: European Union
+  enabled: true
+- id: eu_ai_act_legal_text
+  name: EU AI Act – Artificial Intelligence Act (Official Text)
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689
+  filename: OJ_L_202401689_EN_TXT.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: law
+  language: en
+  domain:
+  - ai_policy
+  publisher: eur-lex.europa.eu
+  authority: European Union
+  enabled: true
+- id: ico_right_to_informed_pdf
+  name: ICO – Right to be informed (PDF Guidance)
+  url: https://ico.org.uk/media/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-be-informed-1-0.pdf
+  filename: Right_to_be_informed.pdf
+  format: pdf
+  jurisdiction:
+  - EU
+  doc_type: regulator_guidance
+  language: en
+  domain:
+  - privacy
+  publisher: ico.org.uk
+  authority: ICO
+  enabled: true

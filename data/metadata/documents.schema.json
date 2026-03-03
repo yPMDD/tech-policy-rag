@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "policylens-rag documents.json schema",
+  "type": "object",
+  "required": [
+    "generated_at",
+    "schema_version",
+    "documents"
+  ],
+  "properties": {
+    "generated_at": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "doc_id",
+          "title",
+          "jurisdiction",
+          "domain",
+          "doc_type",
+          "authority",
+          "publisher",
+          "language",
+          "source_url",
+          "format",
+          "version",
+          "ingestion",
+          "paths"
+        ],
+        "properties": {
+          "doc_id": { "type": "string" },
+          "title": { "type": "string" },
+          "jurisdiction": { "type": "array", "items": { "type": "string" } },
+          "domain": { "type": "array", "items": { "type": "string" } },
+          "doc_type": { "type": "string" },
+          "authority": { "type": "string" },
+          "publisher": { "type": "string" },
+          "language": { "type": "string" },
+          "source_url": { "type": "string" },
+          "format": { "enum": ["pdf", "html"] },
+          "version": {
+            "type": "object",
+            "required": ["label", "retrieved_at", "content_hash"],
+            "properties": {
+              "label": { "type": "string" },
+              "retrieved_at": { "type": ["string", "null"] },
+              "content_hash": { "type": ["string", "null"] }
+            }
+          },
+          "ingestion": {
+            "type": "object",
+            "required": ["extractor", "ocr_used", "warnings"],
+            "properties": {
+              "extractor": { "type": ["string", "null"] },
+              "ocr_used": { "type": "boolean" },
+              "warnings": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "paths": {
+            "type": "object",
+            "required": ["raw", "extracted", "cleaned"],
+            "properties": {
+              "raw": { "type": ["string", "null"] },
+              "extracted": { "type": ["string", "null"] },
+              "cleaned": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}
