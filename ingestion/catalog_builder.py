@@ -29,13 +29,13 @@ class CatalogBuilder:
                 continue
                 
             doc_id = source['id']
-            # Convert authority names to folder-friendly paths (e.g., "European Union" -> "european_union")
-            authority = source.get('authority', 'unknown').lower().replace(' ', '_')
+            # Use the explicit 'category' field as the folder name — single source of truth
+            category = source.get('category', source.get('authority', 'unknown').lower().replace(' ', '_'))
             fmt = source['format']
             filename = source.get('filename', f"{doc_id}.{fmt}")
-            
+
             # Construct the relative path where we expect the file to be
-            raw_path = f"data/raw/{authority}/{filename}"
+            raw_path = f"data/raw/{category}/{filename}"
             
             # CRITICAL: Only include documents in the catalog if the physical file actually exists
             if not (self.project_root / raw_path).exists():
@@ -46,6 +46,7 @@ class CatalogBuilder:
             doc_entry = {
                 "doc_id": doc_id,
                 "title": source['name'],
+                "category": category,  # Explicit logical category — single source of truth for folder names
                 "jurisdiction": source.get('jurisdiction', []),
                 "domain": source.get('domain', []), # Maps to the 'tags' or 'policy area'
                 "doc_type": source['doc_type'],

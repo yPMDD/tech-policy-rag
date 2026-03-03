@@ -37,10 +37,11 @@ def download_sources(sources_path, raw_dir):
         # Use the explicit 'filename' from YAML if it exists, otherwise generate one from ID
         filename = source.get('filename', f"{source_id}.{fmt}")
         
-        # Determine the authority (e.g., EDPB, GDPR) to use as a subdirectory name
-        # We lowercase it and replace spaces with underscores for clean folder names
-        authority = source.get('authority', 'unknown').lower().replace(' ', '_')
-        dest_dir = Path(raw_dir) / authority
+        # Use the explicit 'category' field to determine destination subfolder.
+        # This is the single source of truth and replaces the old authority-based derivation
+        # which caused the 'european_union/' misclassification bug.
+        category = source.get('category', source.get('authority', 'unknown').lower().replace(' ', '_'))
+        dest_dir = Path(raw_dir) / category
         
         # Ensure the authority subdirectory exists; create it if it doesn't
         dest_dir.mkdir(parents=True, exist_ok=True)
