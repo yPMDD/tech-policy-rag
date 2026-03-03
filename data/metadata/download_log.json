@@ -1,0 +1,74 @@
+{
+  "gdpr_info_root": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_info_root.html"
+  },
+  "gdpr_art_3": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_art_3.html"
+  },
+  "gdpr_art_13": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_art_13.html"
+  },
+  "gdpr_art_15": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_art_15.html"
+  },
+  "eu_ai_act_texts": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\eu_ai_act_texts.html"
+  },
+  "edpb_3_2018_territorial_scope": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_3_2018_territorial_scope.pdf"
+  },
+  "edpb_07_2020_controller_processor": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_guidelines_202007_controllerprocessor_final_en.pdf"
+  },
+  "edpb_05_2020_consent": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_guidelines_202005_consent_en.pdf"
+  },
+  "edpb_01_2021_breach_examples": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_01_2021_breach_examples.pdf"
+  },
+  "edpb_08_2020_social_media_targeting": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_08_2020_social_media_targeting.pdf"
+  },
+  "edpb_4_2019_privacy_by_design": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_4_2019_privacy_by_design.pdf"
+  },
+  "edpb_04_2022_fines": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\edpb\\edpb_04_2022_fines.pdf"
+  },
+  "ico_right_to_be_informed": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\ico\\ico_right_to_be_informed.html"
+  },
+  "ie_dpc_right_to_be_informed": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\irish_dpc\\ie_dpc_right_to_be_informed.html"
+  },
+  "ie_dpc_right_of_access": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\irish_dpc\\ie_dpc_right_of_access.html"
+  },
+  "gdpr_legal_text": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\CELEX_32016R0679_EN_TXT.pdf"
+  },
+  "nis2_directive": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\NIS2_Regulation.pdf"
+  },
+  "eu_ai_act_legal_text": {
+    "downloaded_at": "pre-existing",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\OJ_L_202401689_EN_TXT.pdf"
+  }
+}
