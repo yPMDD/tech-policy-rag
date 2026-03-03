@@ -9,6 +9,7 @@ sources:
   name: GDPR legal text (gdpr-info.eu)
   url: https://gdpr-info.eu/
   format: html
+  category: gdpr
   jurisdiction:
   - EU
   doc_type: law
@@ -22,6 +23,7 @@ sources:
   name: GDPR Article 3 – Territorial scope
   url: https://gdpr-info.eu/art-3-gdpr/
   format: html
+  category: gdpr
   jurisdiction:
   - EU
   doc_type: law
@@ -35,6 +37,7 @@ sources:
   name: GDPR Article 13 – Right to be informed
   url: https://gdpr-info.eu/art-13-gdpr/
   format: html
+  category: gdpr
   jurisdiction:
   - EU
   doc_type: law
@@ -48,6 +51,7 @@ sources:
   name: GDPR Article 15 – Right of access
   url: https://gdpr-info.eu/art-15-gdpr/
   format: html
+  category: gdpr
   jurisdiction:
   - EU
   doc_type: law
@@ -61,6 +65,7 @@ sources:
   name: EU AI Act – Act texts hub
   url: https://artificialintelligenceact.eu/the-act/
   format: html
+  category: eu_ai_act
   jurisdiction:
   - EU
   doc_type: law
@@ -74,6 +79,7 @@ sources:
   name: EDPB Guidelines 3/2018 – Territorial scope (Art. 3)
   url: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -88,6 +94,7 @@ sources:
   url: https://www.edpb.europa.eu/system/files_en?file=2023-10%2FEDPB_guidelines_202007_controllerprocessor_final_en.pdf
   filename: edpb_guidelines_202007_controllerprocessor_final_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -102,6 +109,7 @@ sources:
   url: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202005_consent_en.pdf
   filename: edpb_guidelines_202005_consent_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -115,6 +123,7 @@ sources:
   name: EDPB Guidelines 01/2021 – Breach notification examples
   url: https://www.edpb.europa.eu/system/files/2022-01/edpb_guidelines_012021_pdbnotification_adopted_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -129,6 +138,7 @@ sources:
   name: EDPB Guidelines 8/2020 – Targeting of social media users
   url: https://www.edpb.europa.eu/system/files/2021-04/edpb_guidelines_082020_on_the_targeting_of_social_media_users_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -143,6 +153,7 @@ sources:
   name: EDPB Guidelines 4/2019 – Data protection by design and by default (Art. 25)
   url: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -157,6 +168,7 @@ sources:
   name: EDPB Guidelines 04/2022 – Calculation of administrative fines
   url: https://www.edpb.europa.eu/system/files/2023-06/edpb_guidelines_042022_calculationofadministrativefines_en.pdf
   format: pdf
+  category: edpb
   jurisdiction:
   - EU
   doc_type: guidelines
@@ -171,6 +183,7 @@ sources:
   name: ICO – Right to be informed (UK GDPR guidance)
   url: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-be-informed/
   format: html
+  category: ico
   jurisdiction:
   - EU
   doc_type: regulator_guidance
@@ -184,6 +197,7 @@ sources:
   name: Ireland DPC – Right to be informed (Article 13 & 14)
   url: https://www.dataprotection.ie/en/individuals/know-your-rights/right-be-informed-transparency-article-13-14-gdpr
   format: html
+  category: irish_dpc
   jurisdiction:
   - EU
   doc_type: regulator_guidance
@@ -197,6 +211,7 @@ sources:
   name: Ireland DPC – Right of access
   url: https://dataprotection.ie/en/individuals/know-your-rights/right-access-information
   format: html
+  category: irish_dpc
   jurisdiction:
   - EU
   doc_type: regulator_guidance
@@ -211,6 +226,7 @@ sources:
   url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679
   filename: CELEX_32016R0679_EN_TXT.pdf
   format: pdf
+  category: gdpr
   jurisdiction:
   - EU
   doc_type: law
@@ -225,6 +241,7 @@ sources:
   url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2555
   filename: NIS2_Regulation.pdf
   format: pdf
+  category: eu_ai_act
   jurisdiction:
   - EU
   doc_type: law
@@ -239,6 +256,7 @@ sources:
   url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689
   filename: OJ_L_202401689_EN_TXT.pdf
   format: pdf
+  category: eu_ai_act
   jurisdiction:
   - EU
   doc_type: law
@@ -253,6 +271,7 @@ sources:
   url: https://ico.org.uk/media/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-be-informed-1-0.pdf
   filename: Right_to_be_informed.pdf
   format: pdf
+  category: ico
   jurisdiction:
   - EU
   doc_type: regulator_guidance

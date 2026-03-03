@@ -1,0 +1,113 @@
+The right to be informed (transparency) (Article 13 & 14 GDPR) | Data Protection Commission
+Your Data
+Data Protection: The Basics
+Your rights under the GDPR
+Access
+To be informed
+Rectification
+Erasure
+Data Portability
+Automated Processing
+Right to object to processing
+Restricted processing
+Restriction of rights
+Exercising your rights
+The right to be informed (transparency) (Article 13 & 14 GDPR)
+Any processing of personal data should be lawful, fair, and transparent. It should be clear and transparent to individuals that personal data concerning them are collected, used, consulted or otherwise processed, and to what extent the personal data are, or will be, processed. The right to be informed, under Articles 13 and 14 GDPR, is a key part of any organisations obligations to be transparent.
+The principle of transparency requires that any information or communication relating to the processing of personal data is easily accessible and easy to understand, and that clear and plain language be used. Any information addressed to the public or to the data subject must be concise, easily accessible and easy to understand, and that clear and plain language and, additionally, where appropriate, visualisation be used. Given that children merit specific protection, any information and communication, where processing is addressed to a child, should be in such a clear and plain language that the child can easily understand.
+Individuals should be made aware of risks, rules, safeguards and rights in relation to the processing of personal data and how to exercise their rights in relation to such processing. In particular, the specific purposes for which personal data are processed should be explicit and legitimate and determined at the time of the collection of the personal data.
+What information must a data controller provide where the personal data has been collected from you?
+Where the personal data is collected from you, the data controller must provide you with the following information:
+Identity and contact details of the data controller (and where applicable, the controller’s representative).
+Contact details of the Data Protection Officer (person with responsibility for data protection matters within the organisation).
+Purpose(s) of the processing and the lawful basis for the processing.
+Where processing is based on the legitimate interests of the controller or a third party, the legitimate interests of the controller.
+Any other recipient(s) of the personal data.
+Where applicable, details of any intended transfers to a third country (non-EU member state) or international organisation and details of adequacy decisions and safeguards.
+The retention period (how long an organisation holds onto data) or, if that is not possible, the criteria used to determine the retention period.
+The existence of the following rights –
+Right of access
+Right to rectification
+Right to erasure
+Right to restrict processing
+Right to data portability
+Right to object
+and to request these from the data controller.
+Where processing is based on consent, the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal.
+The right to lodge a complaint with a supervisory authority.
+Whether the provision of personal data is a statutory or contractual requirement, necessary to enter into a contract, an obligation, and the possible consequences of failing to provide the personal data.
+The existence of any automated decision making processes that will be applied to the data, including profiling, and meaningful information about how decisions are made, the significance and the consequences of processing.
+When should this information be provided to you?
+At the time your personal data is collected from you.
+How will this information be provided to you?
+Clear guidance on this process can be found in the section
+'How will the information be provided?’
+Where the controller intends to process your personal data for another purpose (other than the purpose for which the data was originally collected) then the controller must provide you, prior to that other processing, with any further relevant information as per points 1 – 12.
+Are there any circumstances in which these requirements will not apply?
+The above requirements will not apply in instances where you already have the information.
+Article 23 of the GDPR also allows for this right to be restricted by national law in certain circumstances, for example, the prevention and detection of crime.
+IMPORTANT NOTE:
+The lawful reasons for processing personal data are set out in Article 6 of the GDPR. The six lawful reasons for processing personal data are:
+Consent.
+To carry out a contract.
+In order for an organisation to meet a legal obligation.
+Where processing the personal data is necessary to protect the vital interests of a person.
+Where processing the personal data is necessary for the performance of a task carried out in the public interest.
+In the legitimate interests of company/organisation (except where those interests contradict or harm the interests or rights and freedoms of the individual)*.
+Any
+one
+of the six reasons given above can, generally speaking, provide a legal reason for processing personal data.
+*It is important to note that Article 6(1)(f) provides that the "legitimate interests" reason is not available to public authorities where the processing is being conducted in the exercise of their functions.
+What information must a data controller provide where the personal data has
+not
+been obtained from you?
+Where the personal data has not been obtained from you, the data controller must provide you with:
+Identity and contact details of the data controller (and where applicable, the controller’s representative).
+Contact details of the Data Protection Officer (person with responsibility for data protection matters within the organisation).
+Purpose(s) of the processing and the lawful basis for the processing.
+Where processing is based on the legitimate interests of the controller or a third party, the legitimate interests of the controller.
+Any other recipient(s) of the personal data.
+Where applicable, details of any intended transfers to a third country (non-EU member state) or international organisation and details of adequacy decisions and safeguards.
+The retention period (how long an organisation holds on to data) or, if that is not possible, the criteria used to determine the retention period.
+The existence of the following rights –
+Right of access
+Right to rectification
+Right to erasure
+Right to restrict processing
+Right to data portability
+Right to object
+and information on how to request these from the data controller.
+Where processing is based on consent, the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal.
+The right to lodge a complaint with a supervisory authority.
+The existence of any automated decision making processes that will be applied to the data, including profiling, and meaningful information about how decisions are made, the significance and the consequences of processing.
+Information on the types of personal data they hold about you.
+Information on how they obtained the personal data and whether it came from publicly accessible sources.
+When should this information be provided to you?
+Within a reasonable period of having obtained the data and, at the latest, within one month.
+If the data is used to communicate with you, at the latest, when the first communication takes place.
+If it is expected that your personal data will be disclosed to another recipient, when your personal data is first disclosed.
+How will this information be provided to you?
+Clear guidance on this process can be found in the section
+‘
+How will the information be provided?’
+What happens when the data controller intends to process your personal data for a purpose other than that for which it was originally collected?
+Where the controller intends to process your personal data for another purpose (other than the purpose for which the data was originally collected) the controller must provide you, prior to that other processing, with any further relevant information.
+Are there any circumstances in which these requirements will not apply?
+The above requirements will not apply:
+Where you already have the above information;
+Where the provision of such information is impossible or would involve a disproportionate effort;
+Where obtaining the information or disclosure is a legal obligation; and
+Where the personal data must remain confidential due to an obligation of professional secrecy regulated by law.
+This right will typically be fulfilled through a 'Privacy Notice'.
+IMPORTANT NOTE:
+The lawful reasons for processing personal data are set out in Article 6 of the GDPR. The six lawful reasons for processing personal data are:
+Consent.
+To carry out a contract.
+In order for an organisation to meet a legal obligation.
+Where processing the personal data is necessary to protect the vital interests of a person.
+Where processing the personal data is necessary for the performance of a task carried out in the public interest.
+In the legitimate interests of a company/organisation (except where those interests contradict or harm the interests or rights and freedoms of the individual)*.
+Any
+one
+of the six reasons given above can, generally speaking, provide a legal reason for processing personal data.
+*It is important to note that Article 6(1)(f) provides that the "legitimate interests" reason is not available to public authorities where the processing is being conducted in the exercise of their functions.

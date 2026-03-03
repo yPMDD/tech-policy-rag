@@ -1,23 +1,23 @@
 {
   "gdpr_info_root": {
-    "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_info_root.html"
+    "downloaded_at": "2026-03-03T02:33:41.927732",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\gdpr\\gdpr_info_root.html"
   },
   "gdpr_art_3": {
-    "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_art_3.html"
+    "downloaded_at": "2026-03-03T02:33:42.202012",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\gdpr\\gdpr_art_3.html"
   },
   "gdpr_art_13": {
-    "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_art_13.html"
+    "downloaded_at": "2026-03-03T02:33:42.473487",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\gdpr\\gdpr_art_13.html"
   },
   "gdpr_art_15": {
-    "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\gdpr_art_15.html"
+    "downloaded_at": "2026-03-03T02:33:42.754129",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\gdpr\\gdpr_art_15.html"
   },
   "eu_ai_act_texts": {
-    "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\eu_ai_act_texts.html"
+    "downloaded_at": "2026-03-03T02:33:43.346228",
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\eu_ai_act\\eu_ai_act_texts.html"
   },
   "edpb_3_2018_territorial_scope": {
     "downloaded_at": "pre-existing",
@@ -61,14 +61,14 @@
   },
   "gdpr_legal_text": {
     "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\CELEX_32016R0679_EN_TXT.pdf"
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\gdpr\\CELEX_32016R0679_EN_TXT.pdf"
   },
   "nis2_directive": {
     "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\NIS2_Regulation.pdf"
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\eu_ai_act\\NIS2_Regulation.pdf"
   },
   "eu_ai_act_legal_text": {
     "downloaded_at": "pre-existing",
-    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\european_union\\OJ_L_202401689_EN_TXT.pdf"
+    "path": "C:\\wamp64\\www\\MyProjects\\tech-policy-rag\\data\\raw\\eu_ai_act\\OJ_L_202401689_EN_TXT.pdf"
   }
 }

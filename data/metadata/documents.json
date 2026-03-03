@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-03T00:39:43.378346",
+  "generated_at": "2026-03-03T02:33:43.850921",
   "schema_version": 1,
   "documents": [
     {
       "doc_id": "gdpr_info_root",
       "title": "GDPR legal text (gdpr-info.eu)",
+      "category": "gdpr",
       "jurisdiction": [
         "EU"
       ],
@@ -19,23 +20,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.376875",
+        "retrieved_at": "2026-03-03T02:33:43.849527",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/gdpr_info_root.html",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/gdpr/gdpr_info_root.html",
+        "extracted": "data\\extracted\\gdpr\\gdpr_info_root.txt",
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_info_root"
       }
     },
     {
       "doc_id": "gdpr_art_3",
       "title": "GDPR Article 3 \u00e2\u20ac\u201c Territorial scope",
+      "category": "gdpr",
       "jurisdiction": [
         "EU"
       ],
@@ -50,23 +52,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.376980",
+        "retrieved_at": "2026-03-03T02:33:43.849595",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/gdpr_art_3.html",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/gdpr/gdpr_art_3.html",
+        "extracted": "data\\extracted\\gdpr\\gdpr_art_3.txt",
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_3"
       }
     },
     {
       "doc_id": "gdpr_art_13",
       "title": "GDPR Article 13 \u00e2\u20ac\u201c Right to be informed",
+      "category": "gdpr",
       "jurisdiction": [
         "EU"
       ],
@@ -81,23 +84,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377083",
+        "retrieved_at": "2026-03-03T02:33:43.849646",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/gdpr_art_13.html",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/gdpr/gdpr_art_13.html",
+        "extracted": "data\\extracted\\gdpr\\gdpr_art_13.txt",
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_13"
       }
     },
     {
       "doc_id": "gdpr_art_15",
       "title": "GDPR Article 15 \u00e2\u20ac\u201c Right of access",
+      "category": "gdpr",
       "jurisdiction": [
         "EU"
       ],
@@ -112,23 +116,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377289",
+        "retrieved_at": "2026-03-03T02:33:43.849754",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/gdpr_art_15.html",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/gdpr/gdpr_art_15.html",
+        "extracted": "data\\extracted\\gdpr\\gdpr_art_15.txt",
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_15"
       }
     },
     {
       "doc_id": "eu_ai_act_texts",
       "title": "EU AI Act \u00e2\u20ac\u201c Act texts hub",
+      "category": "eu_ai_act",
       "jurisdiction": [
         "EU"
       ],
@@ -143,23 +148,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377379",
+        "retrieved_at": "2026-03-03T02:33:43.849950",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/eu_ai_act_texts.html",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/eu_ai_act/eu_ai_act_texts.html",
+        "extracted": "data\\extracted\\eu_ai_act\\eu_ai_act_texts.txt",
+        "cleaned": "data\\cleaned\\en\\eu_ai_act\\eu_ai_act_texts"
       }
     },
     {
       "doc_id": "edpb_3_2018_territorial_scope",
       "title": "EDPB Guidelines 3/2018 \u00e2\u20ac\u201c Territorial scope (Art. 3)",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -174,23 +180,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377451",
+        "retrieved_at": "2026-03-03T02:33:43.850066",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_3_2018_territorial_scope.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_3_2018_territorial_scope.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_3_2018_territorial_scope"
       }
     },
     {
       "doc_id": "edpb_07_2020_controller_processor",
       "title": "EDPB Guidelines 07/2020 \u00e2\u20ac\u201c Controller and processor",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -205,23 +212,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377514",
+        "retrieved_at": "2026-03-03T02:33:43.850160",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_guidelines_202007_controllerprocessor_final_en.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_07_2020_controller_processor.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_07_2020_controller_processor"
       }
     },
     {
       "doc_id": "edpb_05_2020_consent",
       "title": "EDPB Guidelines 05/2020 \u00e2\u20ac\u201c Consent",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -236,23 +244,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377568",
+        "retrieved_at": "2026-03-03T02:33:43.850245",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_guidelines_202005_consent_en.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_05_2020_consent.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_05_2020_consent"
       }
     },
     {
       "doc_id": "edpb_01_2021_breach_examples",
       "title": "EDPB Guidelines 01/2021 \u00e2\u20ac\u201c Breach notification examples",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -268,23 +277,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377667",
+        "retrieved_at": "2026-03-03T02:33:43.850313",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_01_2021_breach_examples.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_01_2021_breach_examples.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_01_2021_breach_examples"
       }
     },
     {
       "doc_id": "edpb_08_2020_social_media_targeting",
       "title": "EDPB Guidelines 8/2020 \u00e2\u20ac\u201c Targeting of social media users",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -300,23 +310,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377728",
+        "retrieved_at": "2026-03-03T02:33:43.850364",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_08_2020_social_media_targeting.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_08_2020_social_media_targeting.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_08_2020_social_media_targeting"
       }
     },
     {
       "doc_id": "edpb_4_2019_privacy_by_design",
       "title": "EDPB Guidelines 4/2019 \u00e2\u20ac\u201c Data protection by design and by default (Art. 25)",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -332,23 +343,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377789",
+        "retrieved_at": "2026-03-03T02:33:43.850413",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_4_2019_privacy_by_design.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_4_2019_privacy_by_design.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_4_2019_privacy_by_design"
       }
     },
     {
       "doc_id": "edpb_04_2022_fines",
       "title": "EDPB Guidelines 04/2022 \u00e2\u20ac\u201c Calculation of administrative fines",
+      "category": "edpb",
       "jurisdiction": [
         "EU"
       ],
@@ -364,23 +376,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377845",
+        "retrieved_at": "2026-03-03T02:33:43.850461",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_04_2022_fines.pdf",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\edpb\\edpb_04_2022_fines.txt",
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_04_2022_fines"
       }
     },
     {
       "doc_id": "ico_right_to_be_informed",
       "title": "ICO \u00e2\u20ac\u201c Right to be informed (UK GDPR guidance)",
+      "category": "ico",
       "jurisdiction": [
         "EU"
       ],
@@ -395,23 +408,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377899",
+        "retrieved_at": "2026-03-03T02:33:43.850509",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/ico/ico_right_to_be_informed.html",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\ico\\ico_right_to_be_informed.txt",
+        "cleaned": "data\\cleaned\\en\\ico\\ico_right_to_be_informed"
       }
     },
     {
       "doc_id": "ie_dpc_right_to_be_informed",
       "title": "Ireland DPC \u00e2\u20ac\u201c Right to be informed (Article 13 & 14)",
+      "category": "irish_dpc",
       "jurisdiction": [
         "EU"
       ],
@@ -426,23 +440,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.377951",
+        "retrieved_at": "2026-03-03T02:33:43.850556",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/irish_dpc/ie_dpc_right_to_be_informed.html",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\irish_dpc\\ie_dpc_right_to_be_informed.txt",
+        "cleaned": "data\\cleaned\\en\\irish_dpc\\ie_dpc_right_to_be_informed"
       }
     },
     {
       "doc_id": "ie_dpc_right_of_access",
       "title": "Ireland DPC \u00e2\u20ac\u201c Right of access",
+      "category": "irish_dpc",
       "jurisdiction": [
         "EU"
       ],
@@ -457,23 +472,24 @@
       "format": "html",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.378011",
+        "retrieved_at": "2026-03-03T02:33:43.850603",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
         "raw": "data/raw/irish_dpc/ie_dpc_right_of_access.html",
-        "extracted": null,
-        "cleaned": null
+        "extracted": "data\\extracted\\irish_dpc\\ie_dpc_right_of_access.txt",
+        "cleaned": "data\\cleaned\\en\\irish_dpc\\ie_dpc_right_of_access"
       }
     },
     {
       "doc_id": "gdpr_legal_text",
       "title": "GDPR \u00e2\u20ac\u201c General Data Protection Regulation (Official Text)",
+      "category": "gdpr",
       "jurisdiction": [
         "EU"
       ],
@@ -488,23 +504,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.378067",
+        "retrieved_at": "2026-03-03T02:33:43.850656",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/CELEX_32016R0679_EN_TXT.pdf",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/gdpr/CELEX_32016R0679_EN_TXT.pdf",
+        "extracted": "data\\extracted\\gdpr\\gdpr_legal_text.txt",
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_legal_text"
       }
     },
     {
       "doc_id": "nis2_directive",
       "title": "NIS2 Directive \u00e2\u20ac\u201c Cybersecurity measures",
+      "category": "eu_ai_act",
       "jurisdiction": [
         "EU"
       ],
@@ -519,23 +536,24 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.378120",
+        "retrieved_at": "2026-03-03T02:33:43.850735",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/NIS2_Regulation.pdf",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/eu_ai_act/NIS2_Regulation.pdf",
+        "extracted": "data\\extracted\\eu_ai_act\\nis2_directive.txt",
+        "cleaned": "data\\cleaned\\en\\eu_ai_act\\nis2_directive"
       }
     },
     {
       "doc_id": "eu_ai_act_legal_text",
       "title": "EU AI Act \u00e2\u20ac\u201c Artificial Intelligence Act (Official Text)",
+      "category": "eu_ai_act",
       "jurisdiction": [
         "EU"
       ],
@@ -550,18 +568,18 @@
       "format": "pdf",
       "version": {
         "label": "1.0",
-        "retrieved_at": "2026-03-03T00:39:43.378179",
+        "retrieved_at": "2026-03-03T02:33:43.850786",
         "content_hash": null
       },
       "ingestion": {
-        "extractor": null,
+        "extractor": "policylens-processing-v1",
         "ocr_used": false,
         "warnings": []
       },
       "paths": {
-        "raw": "data/raw/european_union/OJ_L_202401689_EN_TXT.pdf",
-        "extracted": null,
-        "cleaned": null
+        "raw": "data/raw/eu_ai_act/OJ_L_202401689_EN_TXT.pdf",
+        "extracted": "data\\extracted\\eu_ai_act\\eu_ai_act_legal_text.txt",
+        "cleaned": "data\\cleaned\\en\\eu_ai_act\\eu_ai_act_legal_text"
       }
     }
   ]

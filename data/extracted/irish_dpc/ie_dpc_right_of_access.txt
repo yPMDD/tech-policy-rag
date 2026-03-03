@@ -1,0 +1,63 @@
+The Right of Access | Data Protection Commission
+Your Data
+Data Protection: The Basics
+Your rights under the GDPR
+Access
+To be informed
+Rectification
+Erasure
+Data Portability
+Automated Processing
+Right to object to processing
+Restricted processing
+Restriction of rights
+Exercising your rights
+The Right of Access
+(Article 15, Recitals 63 & 64 GDPR)
+The General Data Protection Regulation (GDPR), under Article 15, gives individuals the right to request a copy of any of their personal data which are being ‘processed’ (i.e. used in any way) by ‘controllers’ (i.e. those who decide how and why data are processed), as well as other relevant information (as detailed below). These requests are often referred to as ‘data subject access requests’, or ‘access requests’.
+What is the right of access?
+There are actually a few different aspects to the right of access under Article 15 GDPR, including certain information, and a copy of your personal data. You have the right to obtain the following from the data controller:
+1)
+Confirmation of whether or not personal data concerning you is being processed.
+2)
+Where personal data concerning you is being processed, a copy of your personal data.
+3)
+Where personal data concerning you is being processed, other additional information as follows:
+a)
+Purpose(s) of the processing
+.
+b)
+Categories of personal data.
+c)
+Any recipient(s) of the personal data to whom the personal data has or will be disclosed, in particular recipients in third countries or international organisations and information about appropriate safeguards.
+d)
+The retention period or, if that is not possible, the criteria used to determine the retention period
+e)
+The existence of the following rights:
+Right to rectification;
+Right to erasure;
+Right to restrict processing;
+Right to object;
+as well as information on how to request these from the controller.
+f)
+The right to raise a concern with a supervisory authority (in Ireland this is the Data Protection Commission).
+g)
+Where personal data is not collected from the data subject, any available information as to its source.
+h)
+The existence of automated decision-making, including profiling and meaningful information about how decisions are made, the significance and the consequences of processing.
+How do I exercise the right of access?
+The GDPR does not set out any particular method for making a valid access request, therefore a request may be made by an individual in writing or verbally. The DPC would, however, encourage individuals to submit written access requests where practical, to avoid disputes over the details, extent, or timing of an access request. The DPC has provided the below template for access requests that are made to the controller in writing:
+Dear...
+I wish to make an access request under Article 15 of the General Data Protection Regulation (GDPR) for a copy of any information you keep about me, on computer or in manual form in relation to...
+Please be as specific as possible in relation to the personal data you wish to access. You may be asked to provide evidence of your identity. This is to make sure that personal information is not given to the wrong person. Further information on how long it will take, how much it will cost, how the information will be provided, and how to raise a concern with the DPC if you are unhappy with the outcome is available by clicking the menu links on the left hand side of this page.
+Can I be charged a fee to make an access request?
+In most cases individuals cannot be required to pay a fee to make a subject access request. Only in certain very limited circumstances, per Article 12(5) GDPR, where the initial request is ‘manifestly unfounded or excessive’ (which the controller must prove), can a controller charge a ‘reasonable fee’ for the administrative costs of complying with the request.
+Controllers are also allowed to charge a reasonable fee, based on administrative costs, where an individual requests additional copies of their personal data undergoing processing.
+In what format should the information I request be provided?
+The general rule is that a controller should respond to your access request in the same way the request was made, or in the way in which you specifically asked for a response. Where you make the request electronically (such as by email), controllers should provide the required information in a commonly used electronic format, unless you request otherwise.
+Are there any limits to my right of access?
+Under Article 12(5) GDPR, in limited circumstances, where an access request is ‘manifestly unfounded or excessive’, a controller may also, where appropriate, refuse to act on the request. This is, however, a high threshold to meet, and the controller must be able to prove that the request was manifestly unfounded or excessive, in particular taking into account whether the request is repetitive. There should be very few cases where a controller can justify a refusal of a request on this basis.
+The GDPR (in Article 15(4)) states that the right to obtain a copy of your personal data should not ‘adversely affect the rights or freedoms of others’. This means that when responding to an access request, the controller should consider the rights of third parties, such as their data protection rights, trade secrets, or intellectual property rights such as copyright. This could arise, for example, where your access request relates to a record containing both your personal data but also the personal data, trade secrets, or intellectual property of others.
+A balancing of rights exercise would need to be conducted by the controller to balance your right of access your personal data as against the identified risk to the third party that may be brought about by the disclosure of the information. The GDPR notes that these considerations should not result simply in a refusal to provide all relevant information, but the controller should endeavour to comply with the request insofar as possible whilst also ensuring adequate protection for the rights and freedoms of others.
+Further Information
+Data Subject Access Requests - FAQ
