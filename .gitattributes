@@ -1,1 +1,17 @@
+# Force repo language to Python
 * linguist-language=Python
+
+# Ignore frontend build files
+frontend/build/* linguist-generated=true
+frontend/dist/* linguist-generated=true
+
+# Ignore node modules
+frontend/node_modules/* linguist-vendored=true
+
+# Ignore static assets
+*.html linguist-generated=true
+*.css linguist-generated=true
+*.scss linguist-generated=true
+*.svg linguist-generated=true
+*.png linguist-generated=true
+*.jpg linguist-generated=true
