@@ -26,12 +26,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/gdpr/gdpr_info_root.html",
         "extracted": "data\\extracted\\gdpr\\gdpr_info_root.txt",
-        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_info_root"
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_info_root",
+        "vectors": "data\\vectors\\gdpr\\gdpr_info_root.npy"
       }
     },
     {
@@ -58,12 +60,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/gdpr/gdpr_art_3.html",
         "extracted": "data\\extracted\\gdpr\\gdpr_art_3.txt",
-        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_3"
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_3",
+        "vectors": "data\\vectors\\gdpr\\gdpr_art_3.npy"
       }
     },
     {
@@ -90,12 +94,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/gdpr/gdpr_art_13.html",
         "extracted": "data\\extracted\\gdpr\\gdpr_art_13.txt",
-        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_13"
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_13",
+        "vectors": "data\\vectors\\gdpr\\gdpr_art_13.npy"
       }
     },
     {
@@ -122,12 +128,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/gdpr/gdpr_art_15.html",
         "extracted": "data\\extracted\\gdpr\\gdpr_art_15.txt",
-        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_15"
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_art_15",
+        "vectors": "data\\vectors\\gdpr\\gdpr_art_15.npy"
       }
     },
     {
@@ -154,12 +162,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/eu_ai_act/eu_ai_act_texts.html",
         "extracted": "data\\extracted\\eu_ai_act\\eu_ai_act_texts.txt",
-        "cleaned": "data\\cleaned\\en\\eu_ai_act\\eu_ai_act_texts"
+        "cleaned": "data\\cleaned\\en\\eu_ai_act\\eu_ai_act_texts",
+        "vectors": "data\\vectors\\eu_ai_act\\eu_ai_act_texts.npy"
       }
     },
     {
@@ -186,12 +196,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_3_2018_territorial_scope.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_3_2018_territorial_scope.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_3_2018_territorial_scope"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_3_2018_territorial_scope",
+        "vectors": "data\\vectors\\edpb\\edpb_3_2018_territorial_scope.npy"
       }
     },
     {
@@ -218,12 +230,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_guidelines_202007_controllerprocessor_final_en.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_07_2020_controller_processor.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_07_2020_controller_processor"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_07_2020_controller_processor",
+        "vectors": "data\\vectors\\edpb\\edpb_07_2020_controller_processor.npy"
       }
     },
     {
@@ -250,12 +264,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_guidelines_202005_consent_en.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_05_2020_consent.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_05_2020_consent"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_05_2020_consent",
+        "vectors": "data\\vectors\\edpb\\edpb_05_2020_consent.npy"
       }
     },
     {
@@ -283,12 +299,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_01_2021_breach_examples.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_01_2021_breach_examples.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_01_2021_breach_examples"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_01_2021_breach_examples",
+        "vectors": "data\\vectors\\edpb\\edpb_01_2021_breach_examples.npy"
       }
     },
     {
@@ -316,12 +334,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_08_2020_social_media_targeting.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_08_2020_social_media_targeting.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_08_2020_social_media_targeting"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_08_2020_social_media_targeting",
+        "vectors": "data\\vectors\\edpb\\edpb_08_2020_social_media_targeting.npy"
       }
     },
     {
@@ -349,12 +369,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_4_2019_privacy_by_design.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_4_2019_privacy_by_design.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_4_2019_privacy_by_design"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_4_2019_privacy_by_design",
+        "vectors": "data\\vectors\\edpb\\edpb_4_2019_privacy_by_design.npy"
       }
     },
     {
@@ -382,12 +404,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/edpb/edpb_04_2022_fines.pdf",
         "extracted": "data\\extracted\\edpb\\edpb_04_2022_fines.txt",
-        "cleaned": "data\\cleaned\\en\\edpb\\edpb_04_2022_fines"
+        "cleaned": "data\\cleaned\\en\\edpb\\edpb_04_2022_fines",
+        "vectors": "data\\vectors\\edpb\\edpb_04_2022_fines.npy"
       }
     },
     {
@@ -414,12 +438,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/ico/ico_right_to_be_informed.html",
         "extracted": "data\\extracted\\ico\\ico_right_to_be_informed.txt",
-        "cleaned": "data\\cleaned\\en\\ico\\ico_right_to_be_informed"
+        "cleaned": "data\\cleaned\\en\\ico\\ico_right_to_be_informed",
+        "vectors": "data\\vectors\\ico\\ico_right_to_be_informed.npy"
       }
     },
     {
@@ -446,12 +472,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/irish_dpc/ie_dpc_right_to_be_informed.html",
         "extracted": "data\\extracted\\irish_dpc\\ie_dpc_right_to_be_informed.txt",
-        "cleaned": "data\\cleaned\\en\\irish_dpc\\ie_dpc_right_to_be_informed"
+        "cleaned": "data\\cleaned\\en\\irish_dpc\\ie_dpc_right_to_be_informed",
+        "vectors": "data\\vectors\\irish_dpc\\ie_dpc_right_to_be_informed.npy"
       }
     },
     {
@@ -478,12 +506,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/irish_dpc/ie_dpc_right_of_access.html",
         "extracted": "data\\extracted\\irish_dpc\\ie_dpc_right_of_access.txt",
-        "cleaned": "data\\cleaned\\en\\irish_dpc\\ie_dpc_right_of_access"
+        "cleaned": "data\\cleaned\\en\\irish_dpc\\ie_dpc_right_of_access",
+        "vectors": "data\\vectors\\irish_dpc\\ie_dpc_right_of_access.npy"
       }
     },
     {
@@ -510,12 +540,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/gdpr/CELEX_32016R0679_EN_TXT.pdf",
         "extracted": "data\\extracted\\gdpr\\gdpr_legal_text.txt",
-        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_legal_text"
+        "cleaned": "data\\cleaned\\en\\gdpr\\gdpr_legal_text",
+        "vectors": "data\\vectors\\gdpr\\gdpr_legal_text.npy"
       }
     },
     {
@@ -542,12 +574,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/eu_ai_act/NIS2_Regulation.pdf",
         "extracted": "data\\extracted\\eu_ai_act\\nis2_directive.txt",
-        "cleaned": "data\\cleaned\\en\\eu_ai_act\\nis2_directive"
+        "cleaned": "data\\cleaned\\en\\eu_ai_act\\nis2_directive",
+        "vectors": "data\\vectors\\eu_ai_act\\nis2_directive.npy"
       }
     },
     {
@@ -574,12 +608,14 @@
       "ingestion": {
         "extractor": "policylens-processing-v1",
         "ocr_used": false,
-        "warnings": []
+        "warnings": [],
+        "embedder": "policylens-embedding-v1"
       },
       "paths": {
         "raw": "data/raw/eu_ai_act/OJ_L_202401689_EN_TXT.pdf",
         "extracted": "data\\extracted\\eu_ai_act\\eu_ai_act_legal_text.txt",
-        "cleaned": "data\\cleaned\\en\\eu_ai_act\\eu_ai_act_legal_text"
+        "cleaned": "data\\cleaned\\en\\eu_ai_act\\eu_ai_act_legal_text",
+        "vectors": "data\\vectors\\eu_ai_act\\eu_ai_act_legal_text.npy"
       }
     }
   ]
