@@ -6,32 +6,24 @@ from api.models.database_models import User, Conversation, Message
 from rag.pipeline import RAGPipeline
 import json
 
+from api.auth.jwt_utils import get_current_user
 from pydantic import BaseModel
 
 router = APIRouter()
 rag_pipeline = RAGPipeline()
 
 class ChatRequest(BaseModel):
-    user_id: int
     query: str
     conversation_id: Optional[int] = None
 
 @router.post("/chat")
-async def chat(request: ChatRequest, db: Session = Depends(get_db)):
+async def chat(request: ChatRequest, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
     """
     Main Q&A endpoint. Handles retrieval, generation, and persistence.
     """
-    user_id = request.user_id
+    user_id = current_user.id
     query = request.query
     conversation_id = request.conversation_id
-
-    # 0. Ensure user exists (Mock for local dev)
-    user = db.query(User).filter(User.id == user_id).first()
-    if not user:
-        user = User(id=user_id, email=f"user{user_id}@example.com", full_name="Local User")
-        db.add(user)
-        db.commit()
-        db.refresh(user)
 
     # 1. Get or Create Conversation
     if conversation_id:
@@ -68,12 +60,12 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     }
 
 @router.get("/conversations")
-async def get_conversations(user_id: int, db: Session = Depends(get_db)):
-    return db.query(Conversation).filter(Conversation.user_id == user_id).order_by(Conversation.updated_at.desc()).all()
+async def get_conversations(db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    return db.query(Conversation).filter(Conversation.user_id == current_user.id).order_by(Conversation.updated_at.desc()).all()
 
 @router.get("/conversations/{conversation_id}/history")
-async def get_history(conversation_id: int, user_id: int, db: Session = Depends(get_db)):
-    conv = db.query(Conversation).filter(Conversation.id == conversation_id, Conversation.user_id == user_id).first()
+async def get_history(conversation_id: int, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    conv = db.query(Conversation).filter(Conversation.id == conversation_id, Conversation.user_id == current_user.id).first()
     if not conv:
         raise HTTPException(status_code=404, detail="Conversation not found")
     return conv.messages

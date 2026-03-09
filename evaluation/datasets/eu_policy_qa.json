@@ -1,0 +1,37 @@
+[
+  {
+    "id": "eval_001",
+    "question": "What are the maximum administrative fines for non-compliance with the GDPR?",
+    "expected_answer": "Under GDPR Article 83, administrative fines can be up to 20 million EUR or 4% of the total worldwide annual turnover of the preceding financial year, whichever is higher, for the most serious infringements.",
+    "context_reference": "GDPR Article 83",
+    "policy_area": "GDPR"
+  },
+  {
+    "id": "eval_002",
+    "question": "How does the AI Act classify a 'high-risk' AI system?",
+    "expected_answer": "The AI Act classifies system as high-risk if they are used as a safety component of a product or are a product themselves covered by specific EU harmonisation legislation, or if they are used in sensitive areas like biometrics, critical infrastructure, education, or employment as listed in Annex III.",
+    "context_reference": "AI Act Article 6 and Annex III",
+    "policy_area": "AI Act"
+  },
+  {
+    "id": "eval_003",
+    "question": "What is the 'right to be forgotten' under GDPR?",
+    "expected_answer": "GDPR Article 17, also known as the 'right to erasure', allows individuals to have their personal data deleted by a controller when the data is no longer necessary, consent is withdrawn, or the data has been unlawfully processed, subject to certain exceptions.",
+    "context_reference": "GDPR Article 17",
+    "policy_area": "GDPR"
+  },
+  {
+    "id": "eval_004",
+    "question": "Which entities are required to comply with the NIS2 Directive?",
+    "expected_answer": "NIS2 applies to public and private entities of a type referred to as 'essential entities' or 'important entities' in sectors like energy, transport, banking, health, and digital infrastructure, specifically those that qualify as medium or large enterprises.",
+    "context_reference": "NIS2 Article 2",
+    "policy_area": "NIS2"
+  },
+  {
+    "id": "eval_005",
+    "question": "What are the transparency requirements for generative AI under the AI Act?",
+    "expected_answer": "Under the AI Act, providers of generative AI must disclose that the content was AI-generated, design the model to prevent generation of illegal content, and publish summaries of copyrighted data used for training.",
+    "context_reference": "AI Act Article 52 and 53",
+    "policy_area": "AI Act"
+  }
+]

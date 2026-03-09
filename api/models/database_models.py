@@ -11,6 +11,7 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     email = Column(String, unique=True, index=True, nullable=False)
     full_name = Column(String)
+    username = Column(String, unique=True, index=True)
     oauth_provider = Column(String) # google, github
     oauth_id = Column(String, unique=True)
     created_at = Column(DateTime, default=datetime.utcnow)

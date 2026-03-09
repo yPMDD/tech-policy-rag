@@ -26,3 +26,4 @@ passlib[bcrypt]
 httpx
 authlib
 itsdangerous
+pyjwt

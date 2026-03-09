@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-03-09T23:07:32.772025",
+  "summary": {
+    "total_questions": 5,
+    "avg_token_overlap": 0.276,
+    "avg_citation_accuracy": 0.0,
+    "avg_faithfulness": 0.821,
+    "avg_latency": 9.25
+  },
+  "detailed_results": [
+    {
+      "id": "eval_001",
+      "question": "What are the maximum administrative fines for non-compliance with the GDPR?",
+      "expected_answer": "Under GDPR Article 83, administrative fines can be up to 20 million EUR or 4% of the total worldwide annual turnover of the preceding financial year, whichever is higher, for the most serious infringements.",
+      "actual_answer": "Based on the provided context, there are no fixed maximum administrative fines for non-compliance with the GDPR. The GDPR only provides for maximum amounts in Article 83(4)\u2013(6) GDPR, in which several different types of conduct are grouped together. These maximum amounts are not fixed and are subject to the discretion of the supervisory authority.\n\nArticle 83(1) GDPR requires that the amount of the fine shall in each individual case be effective, proportionate, and dissuasive. The quantification of the amount of the fine is therefore based on a specific evaluation carried out in each case, taking account of the parameters included in the GDPR.\n\nThe EDPB has devised a methodology for calculating administrative fines for infringements of the GDPR, which includes steps such as identifying the processing operations in the case, evaluating the application of Article 83(3) GDPR, finding the starting point for further calculation, evaluating aggravating and mitigating circumstances, identifying the relevant legal maximums, and analyzing whether the final amount of the calculated fine meets the requirements of effectiveness, dissuasiveness, and proportionality.\n\nTherefore, the maximum administrative fines for non-compliance with the GDPR depend on the specific circumstances of each case and the discretion of the supervisory authority.",
+      "metrics": {
+        "token_overlap": 0.194,
+        "citation_accuracy": 0.0,
+        "faithfulness": 0.981,
+        "latency_sec": 8.23
+      }
+    },
+    {
+      "id": "eval_002",
+      "question": "How does the AI Act classify a 'high-risk' AI system?",
+      "expected_answer": "The AI Act classifies system as high-risk if they are used as a safety component of a product or are a product themselves covered by specific EU harmonisation legislation, or if they are used in sensitive areas like biometrics, critical infrastructure, education, or employment as listed in Annex III.",
+      "actual_answer": "According to the AI Act, a \"high-risk\" AI system is classified as such when it poses a risk to health and safety, or the protection of fundamental rights, and falls under one of the following categories:\n\n1. AI systems that are intended to be used in a setting where they could cause physical harm or injury to individuals, such as in healthcare or transportation (Article 10(4), EU AI Act).\n2. AI systems that are intended to be used in a setting where they could cause significant economic or social harm, such as in finance or education (Article 10(4), EU AI Act).\n3. AI systems that are intended to be used in a setting where they could compromise the security or integrity of critical infrastructure, such as in energy or transportation (Article 10(4), EU AI Act).\n\nThese high-risk AI systems are subject to stricter conformity assessment procedures, including the involvement of notified bodies and a more rigorous testing and validation process, as outlined in Article 43 of the AI Act (EU AI Act, Article 43).\n\nCitation:\nEuropean Union. (2024). Regulation (EU) 2024/1689 of the European Parliament and of the Council of 12 July 2024 on AI. Official Journal of the European Union, L 177, 77-144.\n\nNote: The specific criteria for classifying AI systems as \"high-risk\" are outlined in Article 10(4) of the AI Act, which states that AI systems that are intended to be used in a setting where they could cause physical harm or injury to individuals, significant economic or social harm, or compromise the security or integrity of critical infrastructure shall be considered high-risk AI systems.",
+      "metrics": {
+        "token_overlap": 0.276,
+        "citation_accuracy": 0.0,
+        "faithfulness": 0.861,
+        "latency_sec": 9.91
+      }
+    },
+    {
+      "id": "eval_003",
+      "question": "What is the 'right to be forgotten' under GDPR?",
+      "expected_answer": "GDPR Article 17, also known as the 'right to erasure', allows individuals to have their personal data deleted by a controller when the data is no longer necessary, consent is withdrawn, or the data has been unlawfully processed, subject to certain exceptions.",
+      "actual_answer": "The \"right to be forgotten\" is not explicitly mentioned in the General Data Protection Regulation (GDPR). However, the regulation does provide individuals with the right to erasure, which is often referred to as the \"right to be forgotten\" (Art. 17 GDPR).\n\nAccording to Article 17, individuals have the right to request the erasure of their personal data without undue delay if:\n\n1. The personal data is no longer necessary in relation to the purposes for which they were collected or otherwise processed; or\n2. The data subject withdraws consent on which the processing was based and there is no other legal ground for the processing; or\n3. The data subject objects to the processing and there is no overriding legitimate interest to continue processing; or\n4. The personal data has been processed illegally; or\n5. The personal data must be erased to comply with a legal obligation.\n\nIn addition to these circumstances, the data subject also has the right to request erasure of their personal data if it was collected in relation to the offer of information society services to a child (Art. 17(3) GDPR).\n\nThe right to erasure, also known as the \"right to be forgotten,\" is a key component of the GDPR's data subject rights, providing individuals with a way to request the deletion of their personal data when it is no longer necessary or when they have objected to the processing.\n\nSource:\n\n* Article 17, General Data Protection Regulation (GDPR)\n* \"Right to Erasure\" by the European Data Protection Supervisor (EDPS)\n* \"The Right to Erasure (Right to Be Forgotten)\" by the Information Commissioner's Office (ICO)",
+      "metrics": {
+        "token_overlap": 0.392,
+        "citation_accuracy": 0.0,
+        "faithfulness": 0.731,
+        "latency_sec": 9.74
+      }
+    },
+    {
+      "id": "eval_004",
+      "question": "Which entities are required to comply with the NIS2 Directive?",
+      "expected_answer": "NIS2 applies to public and private entities of a type referred to as 'essential entities' or 'important entities' in sectors like energy, transport, banking, health, and digital infrastructure, specifically those that qualify as medium or large enterprises.",
+      "actual_answer": "According to the NIS2 Directive, the following entities are required to comply with the directive:\n\n1. Essential Entities: These are entities that provide essential services, such as:\n\t* Energy, transport, water, and waste management\n\t* Healthcare services\n\t* Financial services\n\t* Digital infrastructure and services\n\t* Food supply chain\n\t* Other services that are essential for the functioning of society\n\nThese entities must comply with the NIS2 Directive's security and reporting requirements to ensure the resilience and continuity of their services (Article 21 and 23).\n\n2. Important Entities: These are entities that provide important services, such as:\n\t* Critical ICT third-party service providers\n\t* Other entities that provide important services to the economy or society\n\nThese entities must comply with the NIS2 Directive's security and reporting requirements to ensure the resilience and continuity of their services (Article 21 and 23).\n\n3. Other Entities: The NIS2 Directive also applies to other entities that provide services or operate network and information systems, including:\n\t* Public administration entities\n\t* Private entities that provide services or operate network and information systems\n\nThese entities must comply with the NIS2 Directive's security and reporting requirements to ensure the resilience and continuity of their services (Article 21 and 23).\n\nIt is essential to note that the NIS2 Directive requires Member States to ensure that their competent authorities have the power to impose administrative fines on essential and important entities that infringe the obligations laid down in Articles 21 and 23 (Article 34).",
+      "metrics": {
+        "token_overlap": 0.295,
+        "citation_accuracy": 0.0,
+        "faithfulness": 0.769,
+        "latency_sec": 9.41
+      }
+    },
+    {
+      "id": "eval_005",
+      "question": "What are the transparency requirements for generative AI under the AI Act?",
+      "expected_answer": "Under the AI Act, providers of generative AI must disclose that the content was AI-generated, design the model to prevent generation of illegal content, and publish summaries of copyrighted data used for training.",
+      "actual_answer": "According to the AI Act, transparency requirements for generative AI are established in Article 14. The Article states that providers of general-purpose AI models, including generative AI, shall ensure that transparency information is publicly available and easily accessible. This information must include, inter alia, the following:\n\n* A description of the AI model, including its capabilities, limitations, and potential risks;\n* The data used to train the AI model, including the sources and any biases or errors;\n* The intended use and potential applications of the AI model;\n* Any limitations or constraints on the use of the AI model;\n* The potential risks and consequences of using the AI model, including any potential harm or negative impacts on individuals or society.\n\nThe transparency information must be provided in a clear, concise, and understandable manner, and must be updated regularly to reflect changes to the AI model or its intended use. The Commission may also require additional information to be provided, such as information on the AI model's performance, accuracy, or reliability.\n\nIt is also important to note that the AI Act establishes a requirement for providers of high-risk AI systems, including generative AI, to provide a detailed technical documentation, which must include information on the AI system's design, development, testing, and deployment. This documentation must be made publicly available and easily accessible.\n\nReferences:\nAI Act, Article 14\nEU Commission, \"AI and Data Act: Questions and Answers\"",
+      "metrics": {
+        "token_overlap": 0.221,
+        "citation_accuracy": 0.0,
+        "faithfulness": 0.761,
+        "latency_sec": 8.94
+      }
+    }
+  ]
+}

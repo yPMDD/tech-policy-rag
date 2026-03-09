@@ -19,12 +19,22 @@ app = FastAPI(title="Tech Policy RAG API")
 # Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, restrict this to your frontend URL
+    allow_origins=["http://localhost:3000"], # Be specific for cookies
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-app.add_middleware(SessionMiddleware, secret_key=os.getenv("JWT_SECRET", "supersecret"))
+
+# Required for Authlib/Starlette to handle the session cookie across ports
+app.add_middleware(
+    SessionMiddleware, 
+    secret_key=os.getenv("JWT_SECRET", "supersecret"),
+    same_site="lax", 
+    https_only=False
+)
+
+# Allow insecure transport for OAuth in development (REQUIRED for http://localhost)
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 # Routes
 app.include_router(chat.router, prefix="/api", tags=["Chat"])

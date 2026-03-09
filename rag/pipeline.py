@@ -61,6 +61,7 @@ class RAGPipeline:
         return {
             "answer": answer,
             "citations": citations,
+            "retrieved_context": context_str,
             "sources": [h['id'] for h in hits],
             "status": "success"
         }
