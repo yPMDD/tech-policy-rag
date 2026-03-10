@@ -11,21 +11,41 @@
 
 ---
 
-## 🚀 The Engineering Pipeline
+## 🚀 The Engineering Architecture
 
-A deep dive into how PolicyLens transforms raw legal PDFs into actionable intelligence.
+PolicyLens transforms complex legal data into precision intelligence through a multi-stage RAG pipeline.
 
 ```mermaid
 graph TD
-    A[Legal PDF/JSON Source] -->|Ingestion| B(Chunking & Pre-processing)
-    B -->|Embedding| C{SentenceTransformers}
-    C -->|Indexing| D[(ChromaDB Vector Store)]
-    
-    E[User Query] -->|JWT Auth| F(Scope Guard)
-    F -->|Retrieval| G[Semantic Search]
-    G -->|Context| H[Llama 3 @ Ollama]
-    H -->|Refinement| I(Citation Engine)
-    I -->|Response| J[User UI]
+    subgraph "INGESTION PHASE"
+        A[Legal PDF/JSON] -->|PyMuPDF| B[Raw Text]
+        B -->|Recursive Character Splitter| C[Semantic Chunks]
+        C --> D{Embedding Engine}
+        D -.->|all-MiniLM-L6-v2| E[(Redis Cache)]
+        E --> F[(ChromaDB)]
+    end
+
+    subgraph "AUTHENTICATION & SAFETY"
+        G[User Input] -->|GitHub/Google OAuth| H[JWT Middleware]
+        H --> I{Scope Guard}
+        I -- Access Denied --> J[Safety Warning]
+        I -- Approved --> K{Q&A Redis Cache}
+    end
+
+    subgraph "RAG REASONING CORE"
+        K -- Cache Hit --> L[Flash Result < 0.5s]
+        K -- Cache Miss --> M[Semantic Retriever]
+        M -->|Vector Search| F
+        F --> N[Context Window]
+        N --> O[Llama 3 @ Ollama]
+        O --> P[Citation Engine]
+        P --> Q[Final Intelligence]
+        Q --> K
+    end
+
+    L --> R[React Client]
+    Q --> R
+    J --> R
 ```
 
 ---
