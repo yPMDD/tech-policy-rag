@@ -39,6 +39,16 @@ graph TD
 - **🐳 One-Click Deploy**: Full Docker orchestration with Nginx reverse proxy and Ollama integration.
 
 ---
+## ⚡ Performance Optimization
+
+PolicyLens is built for speed. By leveraging a **Unified Local Redis Cache**, we achieve:
+- **Instant Responses**: Repetitive queries are served from memory in **< 0.5s**, bypassing the LLM.
+- **Dual-Layer Caching**:
+    - **Q&A Cache**: Results are stored with a **1-hour TTL** to balance speed with legal freshness.
+    - **Embedding Cache**: Mathematical "fingerprints" are stored **indefinitely** to eliminate redundant vector computations.
+- **Resource Efficiency**: Significant reduction in VPS CPU/GPU load by avoiding redundant LLM generations.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -82,16 +92,6 @@ bash deployment/scripts/deploy.sh
 
 ---
 
-## ⚡ Performance Optimization
-
-PolicyLens is built for speed. By leveraging a **Unified Local Redis Cache**, we achieve:
-- **Instant Responses**: Repetitive queries are served from memory in **< 0.5s**, bypassing the LLM.
-- **Dual-Layer Caching**:
-    - **Q&A Cache**: Results are stored with a **1-hour TTL** to balance speed with legal freshness.
-    - **Embedding Cache**: Mathematical "fingerprints" are stored **indefinitely** to eliminate redundant vector computations.
-- **Resource Efficiency**: Significant reduction in VPS CPU/GPU load by avoiding redundant LLM generations.
-
----
 
 ## 📈 Evaluation & Metrics
 
