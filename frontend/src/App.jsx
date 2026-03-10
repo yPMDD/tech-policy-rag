@@ -97,6 +97,9 @@ function App() {
   const handleSend = async () => {
     if (!input.trim() || isLoading) return;
 
+    const startTime = Date.now();
+    const MIN_THINKING_TIME = 700; // 0.7s simulation
+
     const userMsg = { role: 'user', content: input };
     setMessages(prev => [...prev, userMsg]);
     setInput('');
@@ -107,6 +110,11 @@ function App() {
         query: input,
         conversation_id: currentConvId
       });
+
+      // Ensure we "think" for at least MIN_THINKING_TIME
+      const elapsedTime = Date.now() - startTime;
+      const waitTime = Math.max(0, MIN_THINKING_TIME - elapsedTime);
+      if (waitTime > 0) await new Promise(r => setTimeout(r, waitTime));
 
       const aiMsg = { 
         role: 'assistant', 
@@ -121,6 +129,10 @@ function App() {
         fetchConversations();
       }
     } catch (err) {
+      const elapsedTime = Date.now() - startTime;
+      const waitTime = Math.max(0, MIN_THINKING_TIME - elapsedTime);
+      if (waitTime > 0) await new Promise(r => setTimeout(r, waitTime));
+
       setMessages(prev => [...prev, { 
         role: 'assistant', 
         content: "I'm sorry, I encountered an error connecting to the legal engine." 
