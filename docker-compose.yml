@@ -25,11 +25,23 @@ services:
       JWT_SECRET: ${JWT_SECRET}
       FRONTEND_URL: ${FRONTEND_URL:-http://localhost}
       OLLAMA_HOST: http://ollama:11434
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_DB_KEY: policy_rag
     depends_on:
       - db
       - ollama
+      - redis
     ports:
       - "8001:8001"
+
+  redis:
+    image: redis:alpine
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
 
   ollama:
     image: ollama/ollama:latest
@@ -60,3 +72,4 @@ services:
 volumes:
   postgres_data:
   ollama_data:
+  redis_data:

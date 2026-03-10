@@ -28,8 +28,15 @@ class RAGPipeline:
 
     def ask(self, query: str) -> dict:
         """
-        The main query entry point.
+        The main query entry point with Redis caching.
         """
+        # 0. Check Q&A Cache
+        cached_response = self.retriever.embedder.cache.get_query_response(query)
+        if cached_response:
+            print(f"DEBUG: Cache Hit for query: {query[:50]}...")
+            cached_response["status"] = "cache_hit"
+            return cached_response
+
         # 1. Scope Guard Check
         in_scope, reason = self.guard.check_query(query)
         if not in_scope:
@@ -58,13 +65,18 @@ class RAGPipeline:
         # 5. Extract Citations
         citations = self.citation_engine.format_citations(hits)
 
-        return {
+        response = {
             "answer": answer,
             "citations": citations,
             "retrieved_context": context_str,
             "sources": [h['id'] for h in hits],
             "status": "success"
         }
+
+        # 6. Store in Cache
+        self.retriever.embedder.cache.set_query_response(query, response)
+        
+        return response
 
 if __name__ == "__main__":
     # Final E2E Test

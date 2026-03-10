@@ -55,3 +55,23 @@ class RedisCache:
         key = f"{self.db_key_prefix}:emb:{self._get_hash(text)}"
         # Store as raw binary for efficiency
         self.redis.set(key, embedding.astype(np.float32).tobytes())
+
+    def get_query_response(self, query: str):
+        """Retrieve full RAG response from cache."""
+        if not self.redis:
+            return None
+            
+        key = f"{self.db_key_prefix}:qa:{self._get_hash(query)}"
+        cached = self.redis.get(key)
+        
+        if cached:
+            return json.loads(cached)
+        return None
+
+    def set_query_response(self, query: str, response: dict, ttl: int = 3600):
+        """Cache full RAG response."""
+        if not self.redis:
+            return
+            
+        key = f"{self.db_key_prefix}:qa:{self._get_hash(query)}"
+        self.redis.setex(key, ttl, json.dumps(response))
