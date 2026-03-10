@@ -5,6 +5,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Ollama](https://img.shields.io/badge/LLM-Llama3-orange?style=for-the-badge)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
 **PolicyLens** is a high-performance Retrieval-Augmented Generation (RAG) engine designed for legal professionals and policy researchers to navigate the complex landscape of EU Tech Policy (GDPR, AI Act, NIS2).
 
@@ -45,6 +46,7 @@ graph TD
 - **Frontend**: React (Vite), Lucide Icons, Axios.
 - **AI/ML**: Ollama (Llama3), SentenceTransformers (MiniLM).
 - **Database**: PostgreSQL (Metadata), ChromaDB (Vectors).
+- **Cache**: Redis (Embeddings & Q&A).
 
 ---
 
@@ -80,12 +82,18 @@ bash deployment/scripts/deploy.sh
 
 ---
 
-## 📈 Performance & Metrics
+## ⚡ Performance Optimization
 
-We value precision over creativity. Our evaluation framework ensures:
-- **Faithfulness**: > 80% grounding in legal text.
-- **Latency**: Sub-10s responses even on standard VPS hardware.
-- **Safety**: 100% rejection of out-of-scope queries (e.g., medical/financial advice).
+PolicyLens is built for speed. By leveraging a **Unified Local Redis Cache**, we achieve:
+- **Instant Responses**: Repetitive queries are served from memory in **< 0.5s**, bypassing the LLM.
+- **Dual-Layer Caching**:
+    - **Q&A Cache**: Results are stored with a **1-hour TTL** to balance speed with legal freshness.
+    - **Embedding Cache**: Mathematical "fingerprints" are stored **indefinitely** to eliminate redundant vector computations.
+- **Resource Efficiency**: Significant reduction in VPS CPU/GPU load by avoiding redundant LLM generations.
+
+---
+
+## 📈 Evaluation & Metrics
 
 ---
 
