@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import { Send, Plus, History, ShieldAlert, LogIn, ExternalLink, ChevronRight, LogOut, Github, Chrome } from 'lucide-react';
+import { Send, Plus, History, ShieldAlert, LogIn, ExternalLink, ChevronRight, LogOut, Github, Chrome, Trash2 } from 'lucide-react';
 import ChatWindow from './components/ChatWindow';
 
 // API Base configuration
@@ -142,6 +142,21 @@ function App() {
     }
   };
 
+  const handleDeleteConversation = async (e, convId) => {
+    e.stopPropagation();
+
+    try {
+      await axios.delete(`${API_BASE}/api/conversations/${convId}`);
+      setConversations(prev => prev.filter(c => c.id !== convId));
+      if (currentConvId === convId) {
+        setCurrentConvId(null);
+        setMessages([]);
+      }
+    } catch (err) {
+      console.error("Error deleting conversation:", err);
+    }
+  };
+
   const handleLogout = () => {
     localStorage.removeItem('token');
     setToken(null);
@@ -247,7 +262,14 @@ function App() {
               onClick={() => loadHistory(c.id)}
             >
               <History size={14} />
-              <span>{c.title}</span>
+              <span className="conv-title">{c.title}</span>
+              <button 
+                className="delete-conv-btn" 
+                onClick={(e) => handleDeleteConversation(e, c.id)}
+                title="Delete Conversation"
+              >
+                <Trash2 size={12} />
+              </button>
             </div>
           ))}
         </div>
@@ -375,6 +397,36 @@ function App() {
 
         .history-item.active {
           border-left: 2px solid var(--accent-cyan);
+        }
+
+        .conv-title {
+          flex: 1;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .delete-conv-btn {
+          opacity: 0;
+          background: transparent;
+          border: none;
+          color: var(--text-secondary);
+          cursor: pointer;
+          padding: 4px;
+          border-radius: 4px;
+          transition: var(--transition);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .history-item:hover .delete-conv-btn {
+          opacity: 1;
+        }
+
+        .delete-conv-btn:hover {
+          color: #ff4d4d;
+          background: rgba(255, 77, 77, 0.1);
         }
 
         .main-content {
