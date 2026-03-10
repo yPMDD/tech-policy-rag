@@ -3,10 +3,12 @@ import { Bot, User } from 'lucide-react';
 import CitationCard from './CitationCard';
 
 function ChatWindow({ messages, isLoading }) {
-  const scrollRef = useRef(null);
+  const lastMessageRef = useRef(null);
 
   useEffect(() => {
-    scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (messages.length > 0) {
+      lastMessageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }, [messages, isLoading]);
 
   return (
@@ -21,7 +23,11 @@ function ChatWindow({ messages, isLoading }) {
       </div>
 
       {messages.map((msg, i) => (
-        <div key={i} className={`message-row ${msg.role}`}>
+        <div 
+          key={i} 
+          className={`message-row ${msg.role}`}
+          ref={i === messages.length - 1 && !isLoading ? lastMessageRef : null}
+        >
           <div className="message-container">
             <div className="message-icon">
               {msg.role === 'user' ? <User size={18} /> : <Bot size={18} />}
@@ -44,7 +50,7 @@ function ChatWindow({ messages, isLoading }) {
       ))}
 
       {isLoading && (
-        <div className="message-row assistant">
+        <div className="message-row assistant" ref={lastMessageRef}>
           <div className="message-container">
             <div className="message-icon rotating">
               <Bot size={18} />
@@ -55,7 +61,6 @@ function ChatWindow({ messages, isLoading }) {
           </div>
         </div>
       )}
-      <div ref={scrollRef} />
 
       <style jsx>{`
         .chat-messages {
